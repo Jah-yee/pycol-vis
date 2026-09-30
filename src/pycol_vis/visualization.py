@@ -3,8 +3,6 @@ import matplotlib
 from sklearn.manifold import TSNE
 import matplotlib.pyplot as plt
 
-matplotlib.use("QtAgg")
-
 from .utils.utils import load_image
 from sklearn.decomposition import PCA
 
